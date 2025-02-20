@@ -38,6 +38,7 @@ const optionsSchema = z.object({
       id: z.string({ required_error: 'The service id is required. please provide the service id' }),
       path: z.string({ required_error: 'The service path is required. please provide the path to specification file' }),
       name: z.string().optional(),
+      version: z.string().optional(),
     }),
     { message: 'Please provide correct services configuration' }
   ),
@@ -160,7 +161,7 @@ export default async (config: any, options: Props) => {
     const serviceId = service.id;
 
     const serviceName = service.name || document.info().title();
-    const version = document.info().version();
+    const version = service.version || document.info().version();
 
     // What messages does this service send and receive
     let sends = [];

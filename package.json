@@ -1,5 +1,5 @@
 {
-  "name": "@eventcatalog/generator-asyncapi",
+  "name": "@khalidumar-hs/generator-asyncapi",
   "version": "2.7.3",
   "description": "AsyncAPI generator for EventCatalog",
   "scripts": {
@@ -14,7 +14,7 @@
     "access": "public"
   },
   "keywords": [],
-  "author": "",
+  "author": "khalidumar-hs",
   "license": "ISC",
   "devDependencies": {
     "@changesets/cli": "^2.27.9",
@@ -48,5 +48,16 @@
     "minimist": "^1.2.8",
     "slugify": "^1.6.6",
     "zod": "^3.23.8"
-  }
+  },
+  "directories": {
+    "example": "examples"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/khalidumar-hs/generator-asyncapi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/khalidumar-hs/generator-asyncapi/issues"
+  },
+  "homepage": "https://github.com/khalidumar-hs/generator-asyncapi#readme"
 }
