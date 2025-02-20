@@ -1,6 +1,6 @@
 {
   "name": "@khalidumar-hs/generator-asyncapi",
-  "version": "2.7.5",
+  "version": "1.0.0",
   "description": "AsyncAPI generator for EventCatalog",
   "scripts": {
     "build": "tsup",
